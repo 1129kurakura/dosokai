@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>玉川中学校 2027 同窓会</title>
+    <!-- Google Fonts: 日本語対応フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Noto+Serif+JP:wght@300;400;700&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+
+    <!-- ===================================================
+    ローディング画面
+    =================================================== -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-inner">
+        <div class="loading-logo">玉川中学校</div>
+        <div class="loading-subtitle">2027 同窓会</div>
+        <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+    </div>
+</div>
+
+<!-- ===================================================
+ナビゲーション
+=================================================== -->
+<nav class="navbar" id="navbar">
+    <div class="nav-brand">玉川中学校<span class="gold">同窓会</span></div>
+    <!-- ハンバーガーメニュー（スマホ用） -->
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">概要</a></li>
+        <li><a href="#news" class="nav-link">お知らせ</a></li>
+        <li><a href="#schedule" class="nav-link">スケジュール</a></li>
+        <li><a href="#payment" class="nav-link">参加費</a></li>
+        <li><a href="#gallery" class="nav-link">ギャラリー</a></li>
+        <li><a href="#qa" class="nav-link">Q&amp;A</a></li>
+        <li><a href="#form" class="nav-link cta-nav">参加登録</a></li>
+    </ul>
+</nav>
+
+<!-- ===================================================
+セクション1: ヒーロー（トップ）
+=================================================== -->
+<section class="hero" id="hero">
+    <!-- 背景の装飾パーティクル -->
+    <div class="hero-bg">
+        <div class="grain-overlay"></div>
+        <div class="hero-glow"></div>
+    </div>
+    <div class="hero-content">
+        <!-- 参加受付中バッジ -->
+        <div class="badge fade-up">参加受付中</div>
+        <!-- メインタイトル -->
+        <h1 class="hero-title fade-up delay-1">
+        <span class="hero-school">玉川中学校</span>
+        <span class="hero-year">2027</span>
+        <span class="hero-event">同窓会</span>
+        </h1>
+        <!-- 日時・会場 -->
+        <div class="hero-meta fade-up delay-2">
+            <div class="hero-meta-item">
+            <span class="hero-meta-icon">📅</span>
+            <span>2027年1月11日（月）17:30〜21:00</span>
+        </div>
+        <div class="hero-meta-item">
+            <span class="hero-meta-icon">📍</span>
+            <span>**********</span>
+        </div>
+        </div>
+        
+      <!-- カウントダウン -->
+      <div class="countdown-wrapper fade-up delay-3">
+        <div class="countdown-label">開催まであと</div>
+        <div class="countdown" id="countdown">
+          <div class="countdown-item">
+            <span class="countdown-num" id="cd-days">000</span>
+            <span class="countdown-unit">日</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-item">
+            <span class="countdown-num" id="cd-hours">00</span>
+            <span class="countdown-unit">時間</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-item">
+            <span class="countdown-num" id="cd-minutes">00</span>
+            <span class="countdown-unit">分</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-item">
+            <span class="countdown-num" id="cd-seconds">00</span>
+            <span class="countdown-unit">秒</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTAボタン -->
+      <div class="hero-btns fade-up delay-4">
+        <a href="#form" class="btn btn-primary">参加登録する</a>
+        <a href="#about" class="btn btn-outline">詳しく見る</a>
+      </div>
+    </div>
+
+    <!-- スクロール促進矢印 -->
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       セクション2: 同窓会概要
+  =================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">About</span>
+        <h2 class="section-title">同窓会概要</h2>
+        <p class="section-desc">久しぶりに懐かしい仲間と再会しましょう</p>
+      </div>
+
+      <!-- 概要カードグリッド -->
+      <div class="about-grid">
+        <!-- 日時 -->
+        <div class="about-card fade-up">
+          <div class="about-card-icon">🗓</div>
+          <div class="about-card-title">日時</div>
+          <div class="about-card-body">
+            2027年1月11日（月）<br />
+            17:30 受付開始<br />
+            18:00〜21:00 本会
+          </div>
+        </div>
+        <!-- 会場 -->
+        <div class="about-card fade-up delay-1">
+          <div class="about-card-icon">🏛</div>
+          <div class="about-card-title">会場</div>
+          <div class="about-card-body">
+            THE GRAND HALL TAMAGAWA<br />
+            東京都世田谷区玉川〇〇〇<br />
+            <a href="https://www.google.com/maps" target="_blank" class="card-link">Google Mapで開く →</a>
+          </div>
+        </div>
+        <!-- 参加費 -->
+        <div class="about-card fade-up delay-2">
+          <div class="about-card-icon">💴</div>
+          <div class="about-card-title">参加費</div>
+          <div class="about-card-body">
+            <span class="price-highlight">¥6,000</span><br />
+            飲み放題・食事代込み<br />
+            事前振込のみ
+          </div>
+        </div>
+        <!-- ドレスコード -->
+        <div class="about-card fade-up delay-3">
+          <div class="about-card-icon">👔</div>
+          <div class="about-card-title">ドレスコード</div>
+          <div class="about-card-body">
+            スマートカジュアル<br />
+            （過度なカジュアルはNG）<br />
+            制服着用も大歓迎！
+          </div>
+        </div>
+        <!-- アクセス -->
+        <div class="about-card fade-up delay-1">
+          <div class="about-card-icon">🚃</div>
+          <div class="about-card-title">アクセス</div>
+          <div class="about-card-body">
+            東急田園都市線<br />
+            「二子玉川駅」東口より徒歩5分<br />
+            駐車場なし（公共交通機関推奨）
+          </div>
+        </div>
+        <!-- 注意事項 -->
+        <div class="about-card fade-up delay-2">
+          <div class="about-card-icon">⚠️</div>
+          <div class="about-card-title">注意事項</div>
+          <div class="about-card-body">
+            ・参加費の払い戻し不可<br />
+            ・飲酒は20歳以上のみ<br />
+            ・写真・動画撮影あり
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       セクション3: お知らせ
+  =================================================== -->
+  <section class="section section-dark" id="news">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">News</span>
+        <h2 class="section-title">お知らせ</h2>
+        <p class="section-desc">幹事からの最新情報</p>
+      </div>
+
+      <!-- お知らせリスト（JavaScriptで動的生成） -->
+      <div class="news-list" id="news-list"></div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       セクション4: タイムスケジュール
+  =================================================== -->
+  <section class="section" id="schedule">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Schedule</span>
+        <h2 class="section-title">当日のスケジュール</h2>
+        <p class="section-desc">楽しい夜の流れをチェック</p>
+      </div>
+
+      <!-- タイムライン（JavaScriptで動的生成） -->
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       セクション5: 参加費支払い（超重要）
+  =================================================== -->
+  <section class="section section-dark" id="payment">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Payment</span>
+        <h2 class="section-title">参加費のお支払い</h2>
+        <p class="section-desc">参加費 ¥6,000 を事前にお支払いください</p>
+      </div>
+
+      <!-- 支払い方法カード -->
+      <div class="payment-grid">
+        <!-- 銀行振込 -->
+        <div class="payment-card fade-up">
+          <div class="payment-icon">🏦</div>
+          <div class="payment-name">銀行振込</div>
+          <div class="payment-desc">三菱UFJ銀行へお振込み</div>
+          <button class="btn btn-payment" onclick="openModal('bank')">振込先を確認する</button>
+        </div>
+        <!-- PayPay -->
+        <div class="payment-card fade-up delay-1">
+          <div class="payment-icon">📱</div>
+          <div class="payment-name">PayPay</div>
+          <div class="payment-desc">QRコードで簡単送金</div>
+          <button class="btn btn-payment" onclick="openModal('paypay')">QRコードを表示</button>
+        </div>
+        <!-- LINE Pay -->
+        <div class="payment-card fade-up delay-2">
+          <div class="payment-icon">💬</div>
+          <div class="payment-name">LINE Pay</div>
+          <div class="payment-desc">LINEで送金</div>
+          <button class="btn btn-payment" onclick="openModal('linepay')">送金先を確認する</button>
+        </div>
+      </div>
+
+      <p class="payment-note fade-up">※ お支払い後、幹事LINEグループにてご確認をお知らせください</p>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       支払いモーダル（銀行・PayPay・LINE Pay）
+  =================================================== -->
+  <div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+    <div class="modal" id="modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- ===================================================
+       セクション6: ギャラリー
+  =================================================== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Gallery</span>
+        <h2 class="section-title">思い出ギャラリー</h2>
+        <p class="section-desc">あの頃の記憶</p>
+      </div>
+
+      <!-- 横スクロールギャラリー -->
+      <div class="gallery-scroll fade-up">
+        <div class="gallery-track" id="gallery-track"></div>
+      </div>
+      <p class="gallery-hint">← スワイプして見る →</p>
+    </div>
+  </section>
+
+  <!-- ギャラリー拡大モーダル -->
+  <div class="gallery-modal-overlay" id="gallery-modal-overlay" onclick="closeGalleryModal()">
+    <div class="gallery-modal">
+      <button class="modal-close" onclick="closeGalleryModal()">✕</button>
+      <img id="gallery-modal-img" src="" alt="拡大画像" />
+      <p id="gallery-modal-caption"></p>
+    </div>
+  </div>
+
+  <!-- ===================================================
+       セクション7: 幹事紹介
+  =================================================== -->
+  <section class="section section-dark" id="organizers">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Organizers</span>
+        <h2 class="section-title">幹事紹介</h2>
+        <p class="section-desc">今回の同窓会を企画したメンバー</p>
+      </div>
+
+      <!-- 幹事カード（JavaScriptで生成） -->
+      <div class="organizer-grid" id="organizer-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       セクション8: Q&A
+  =================================================== -->
+  <section class="section" id="qa">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Q&amp;A</span>
+        <h2 class="section-title">よくある質問</h2>
+        <p class="section-desc">参加前にご確認ください</p>
+      </div>
+
+      <!-- アコーディオン（JavaScriptで生成） -->
+      <div class="qa-list" id="qa-list"></div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       セクション9: 参加フォーム
+  =================================================== -->
+  <section class="section section-dark" id="form">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Entry</span>
+        <h2 class="section-title">参加登録</h2>
+        <p class="section-desc">出欠のご回答をお願いします</p>
+      </div>
+
+      <div class="form-card fade-up">
+        <p class="form-desc">
+          下のボタンからGoogleフォームにアクセスして、<br />
+          出欠・飲酒希望などをご回答ください。<br />
+          締め切り：<strong>2026年12月25日（木）</strong>
+        </p>
+        <div class="form-items">
+          <div class="form-item">✅ お名前</div>
+          <div class="form-item">✅ 出席クラス（卒業時）</div>
+          <div class="form-item">✅ 出欠の確認</div>
+          <div class="form-item">✅ 飲酒希望の有無</div>
+          <div class="form-item">✅ コメント・一言</div>
+        </div>
+        <!-- ダミーのGoogleフォームURL。実際のURLに置き換えてください -->
+        <a href="https://forms.gle/xxxxxxxxxx" target="_blank" class="btn btn-primary btn-large">
+          📝 参加フォームに回答する
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       フッター
+  =================================================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-logo">玉川中学校 <span class="gold">2027 同窓会</span></div>
+      <div class="footer-contact">
+        お問い合わせ：幹事グループLINEまたは<br />
+        <a href="mailto:tamagawa2027reunion@example.com" class="footer-email">tamagawa2027reunion@example.com</a>
+      </div>
+      <!-- SNS風アイコンリンク -->
+      <div class="footer-sns">
+        <a href="#" class="sns-icon" aria-label="LINE">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 2.99 1.58 5.65 4 7.37V22l3.5-2c.83.23 1.64.35 2.5.35 5.52 0 10-4.03 10-9C22 6.03 17.52 2 12 2z"/></svg>
+        </a>
+        <a href="#" class="sns-icon" aria-label="Twitter/X">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="#" class="sns-icon" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2027 玉川中学校同窓会実行委員会 All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- メインJavaScript -->
+  <script src="script/script.js"></script>
+</body>
+</html>
