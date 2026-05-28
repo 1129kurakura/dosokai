@@ -31,14 +31,14 @@ const newsData = [
   {
     date: "2026.10.28",
     label: "参加費",
-    title: "参加費が決定しました（¥6,000）",
-    body: "飲み放題・食事込みで ¥6,000 となりました。払込先は支払いページをご確認ください。",
+    title: "参加費が決定しました（¥10,000）",
+    body: "飲み放題・食事込みで ¥10,000 となりました。払込先は支払いページをご確認ください。",
   },
   {
     date: "2026.10.20",
     label: "会場",
     title: "会場が決定しました",
-    body: "THE GRAND HALL TAMAGAWA（二子玉川）に決定しました。駅から徒歩5分の好立地です。",
+    body: "***********に決定しました。駅から徒歩**分の好立地です。",
   },
   {
     date: "2026.10.10",
@@ -165,7 +165,7 @@ const paymentInfo = {
         <tr><th>口座種別</th><td>普通</td></tr>
         <tr><th>口座番号</th><td>1234567</td></tr>
         <tr><th>口座名義</th><td>タマガワチュウガッコウ　ドウソウカイ</td></tr>
-        <tr><th>金額</th><td>¥6,000</td></tr>
+        <tr><th>金額</th><td>¥10,000</td></tr>
       </table>
       <p class="modal-note">
         ※ 振込名義は「クラス＋お名前」でお願いします（例：3-2タナカユウキ）<br />
@@ -187,7 +187,7 @@ const paymentInfo = {
       </div>
       <table class="modal-info-table">
         <tr><th>PayPay ID</th><td>@tamagawa2027（ダミー）</td></tr>
-        <tr><th>送金金額</th><td>¥6,000</td></tr>
+        <tr><th>送金金額</th><td>¥10,000</td></tr>
       </table>
       <p class="modal-note">
         ※ 送金メモに「クラス＋お名前」を入力してください<br />
@@ -207,7 +207,7 @@ const paymentInfo = {
       </div>
       <table class="modal-info-table">
         <tr><th>LINE ID</th><td>@tamagawa2027（ダミー）</td></tr>
-        <tr><th>送金金額</th><td>¥6,000</td></tr>
+        <tr><th>送金金額</th><td>¥10,000</td></tr>
       </table>
       <p class="modal-note">
         ※ 送金メモに「クラス＋お名前」を入力してください<br />
