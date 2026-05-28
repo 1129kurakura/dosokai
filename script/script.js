@@ -56,7 +56,7 @@ const scheduleData = [
   { time: "18:00", event: "開会",                sub: "",                                highlight: true  },
   { time: "18:10", event: "開会挨拶・乾杯🥂",   sub: "代表幹事よりご挨拶",               highlight: true  },
   { time: "18:20", event: "食事・歓談",           sub: "食事を楽しみながら旧友と語りましょう", highlight: false },
-  { time: "19:00", event: "ビンゴ大会🎯",        sub: "豪華景品多数ご用意しています",    highlight: true  },
+  { time: "19:00", event: "余興🎯",        sub: "豪華景品多数ご用意しています！",    highlight: true  },
   { time: "20:00", event: "フリータイム",          sub: "自由歓談・テーブル移動OK",         highlight: false },
   { time: "20:30", event: "集合写真撮影📸",       sub: "全員で記念撮影",                  highlight: true  },
   { time: "20:50", event: "閉会挨拶",             sub: "",                                highlight: false },
@@ -68,7 +68,7 @@ const scheduleData = [
 const qaData = [
   {
     question: "服装に決まりはありますか？",
-    answer: "スマートカジュアル（きれいめカジュアル）を推奨しています。あまりにもカジュアルすぎる服装（スウェット・ジャージなど）はご遠慮ください。制服着用は大歓迎です！",
+    answer: "スマートカジュアル（きれいめカジュアル）を推奨しています。あまりにもカジュアルすぎる服装（スウェット・ジャージなど）はご遠慮ください。",
   },
   {
     question: "キャンセルはできますか？",
