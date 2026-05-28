@@ -100,41 +100,53 @@ const qaData = [
 // --- 幹事データ ---
 // { initial: "イニシャル", name: "名前", role: "担当", comment: "コメント" }
 const organizersData = [
-  {
-    initial: "T",
-    name: "田中 裕樹",
+    {
+    initial: "K",
+    name: "K S",
     role: "幹事長 / 全体統括",
     comment: "3年ぶりの再会、楽しみにしています！みんなで最高の夜にしましょう🎉",
   },
   {
-    initial: "S",
-    name: "鈴木 彩香",
+    initial: "T",
+    name: "T Y",
+    role: "会計 / 参加費管理",
+    comment: "お支払いに関するご不明点はお気軽に連絡してください。",
+  },
+  {
+    initial: "T",
+    name: "T E",
+    role: "会計 / 参加費管理",
+    comment: "お支払いに関するご不明点はお気軽に連絡してください。",
+  },
+  {
+    initial: "T",
+    name: "T M",
     role: "会計 / 参加費管理",
     comment: "お支払いに関するご不明点はお気軽に連絡してください。",
   },
   {
     initial: "Y",
-    name: "山田 翔太",
-    role: "会場 / 設営担当",
-    comment: "素敵な会場を押さえました。当日のセッティングも頑張ります！",
+    name: "Y K",
+    role: "余興 / 企画担当",
+    comment: "景品を張り切って選びました。お楽しみに！",
   },
   {
-    initial: "N",
-    name: "中村 美咲",
-    role: "広報 / サイト担当",
-    comment: "このサイトの制作担当です。見やすくできていたら嬉しいです😊",
+    initial: "M",
+    name: "M G",
+    role: "余興 / 企画担当",
+    comment: "景品を張り切って選びました。お楽しみに！",
   },
   {
-    initial: "K",
-    name: "小林 健太",
-    role: "余興 / ビンゴ担当",
-    comment: "ビンゴの景品を張り切って選びました。お楽しみに！",
+    initial: "S",
+    name: "S H",
+    role: "余興 / 企画担当",
+    comment: "景品を張り切って選びました。お楽しみに！",
   },
   {
-    initial: "A",
-    name: "安藤 さくら",
-    role: "出欠管理 / 連絡担当",
-    comment: "参加してくれるみんな、ありがとう。当日会いましょう🌸",
+    initial: "S",
+    name: "S T",
+    role: "余興 / 企画担当",
+    comment: "景品を張り切って選びました。お楽しみに！",
   },
 ];
 
