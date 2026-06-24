@@ -133,10 +133,10 @@ const organizersData = [
 // --- ギャラリーデータ ---
 // { src: "画像URL", caption: "説明文" }
 const galleryData = [
-  { src: "image/sotu.jpeg", caption: "入学式のあの頃" },
-  { src: "image/dron.jpeg", caption: "玉川中学校の空撮画像" },
-  { src: "image/hito.jpg", caption: "一つになる" },
-  { src: "image/sora.jpg", caption: "一つになる" },
+  { src: "sotu.jpeg", caption: "入学式のあの頃" },
+  { src: "dron.jpeg", caption: "玉川中学校の空撮画像" },
+  { src: "hito.jpg", caption: "一つになる" },
+  { src: "sora.jpg", caption: "一つになる" },
 ];
 
 // --- 支払い情報データ ---
