@@ -14,22 +14,9 @@
 11. スクロールフェードインアニメーション
 ===================================================== */
 
-
 // --- お知らせデータ ---
 // { date: "日付", label: "カテゴリ", title: "タイトル", body: "本文" }
 const newsData = [
-  {
-    date: "2026.06.01",
-    label: "重要",
-    title: "参加フォームを公開します",
-    body: "参加フォームを公開します。公開後ご回答ください。",
-  },
-  {
-    date: "2026.06.01",
-    label: "参加費",
-    title: "参加費が決定しました（最大¥10,000）",
-    body: "飲み放題・食事込みで 最大¥10,000 となりました。払込先は支払いページをご確認ください。",
-  },
   {
     date: "2026.06.01",
     label: "会場",
@@ -109,44 +96,32 @@ const organizersData = [
   {
     initial: "T",
     name: "T Y",
-    role: "会計 / 参加費管理",
+    role: "会計主任 / 参加費管理",
     comment: "お支払いに関するご不明点はお気軽に連絡してください。",
   },
   {
-    initial: "T",
-    name: "T E",
-    role: "会計 / 参加費管理",
-    comment: "お支払いに関するご不明点はお気軽に連絡してください。",
-  },
-  {
-    initial: "T",
-    name: "T M",
-    role: "会計 / 参加費管理",
-    comment: "お支払いに関するご不明点はお気軽に連絡してください。",
+    initial: "K",
+    name: "K K",
+    role: "連絡主任 / 先生への連絡担当",
+    comment: "先生方への連絡は私にお任せください！",
   },
   {
     initial: "Y",
     name: "Y K",
-    role: "余興 / 企画担当",
-    comment: "景品を張り切って選びました。お楽しみに！",
+    role: "余興主任 / 企画担当",
+    comment: "景品を張り切って選びます。お楽しみに！",
   },
   {
     initial: "M",
     name: "M G",
-    role: "余興 / 企画担当",
-    comment: "景品を張り切って選びました。お楽しみに！",
+    role: "余興主任 / 企画担当",
+    comment: "景品を張り切って選びます。お楽しみに！",
   },
   {
-    initial: "S",
-    name: "S H",
-    role: "余興 / 企画担当",
-    comment: "景品を張り切って選びました。お楽しみに！",
-  },
-  {
-    initial: "S",
-    name: "S T",
-    role: "余興 / 企画担当",
-    comment: "景品を張り切って選びました。お楽しみに！",
+    initial: "C",
+    name: "C F",
+    role: "受付主任 / 当日受付担当",
+    comment: "当日はスムーズな受付を心がけます！",
   },
 
 ];
@@ -154,10 +129,10 @@ const organizersData = [
 // --- ギャラリーデータ ---
 // { src: "画像URL", caption: "説明文" }
 const galleryData = [
-  { src: "sotu.jpeg", caption: "入学式のあの頃" },
-  { src: "dron.jpeg", caption: "玉川中学校の空撮画像" },
-  { src: "hito.jpg", caption: "一つになる" },
-  { src: "sora.jpg", caption: "一つになる" },
+  { src: "image/sotu.jpeg", caption: "入学式のあの頃" },
+  { src: "image/dron.jpeg", caption: "玉川中学校の空撮画像" },
+  { src: "image/hito.jpg", caption: "一つになる" },
+  { src: "image/sora.jpg", caption: "一つになる" },
 ];
 
 // --- 支払い情報データ ---
