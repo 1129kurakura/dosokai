@@ -72,7 +72,7 @@ const qaData = [
   },
   {
     question: "当日の連絡先は？",
-    answer: "幹事LINEグループ、またはメールアドレス（tamagawa2027reunion@example.com）までご連絡ください。当日の緊急連絡先は後日お知らせします。",
+    answer: "幹事LINEグループ、またはメールアドレス（tama2022dousoukai@gmail.com）までご連絡ください。当日の緊急連絡先は後日お知らせします。",
   },
   {
     question: "写真・動画の撮影はありますか？",
